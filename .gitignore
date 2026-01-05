@@ -9,3 +9,4 @@ binding/python/build
 CMakeLists.txt.user*
 *.autosave
 build/
+result
