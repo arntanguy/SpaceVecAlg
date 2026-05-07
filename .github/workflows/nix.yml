@@ -34,6 +34,7 @@ jobs:
           github_token: ${{ secrets.GH_PAGES_TOKEN }}
           publish_dir: ./result-doc/nanobind/sva
           destination_dir: nanobind
+          enable_jekyll: true # for redirection to jrl.cnrs.fr
   check:
     if: always()
     name: check-macos-linux-nix
